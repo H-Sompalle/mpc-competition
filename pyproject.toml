@@ -16,6 +16,9 @@ dev = [
   "ruff>=0.8",
 ]
 
+[tool.setuptools]
+packages = ["evaluator"]
+
 [tool.ruff]
 line-length = 88
 target-version = "py311"
